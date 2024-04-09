@@ -42,7 +42,8 @@ repo
 1. Add the external data volume (EDV) `metadata-repository` to your project.
 
      a. Ask your Domino contact on how to set up this example EDV within your Domino deployment. 
-1. Set the DCUTDTC project environment variable to the same value as the latest SDTM Snapshot e.g. MAR122024.
+1. Set the `DCUTDTC` project environment variable to the same value as the latest SDTM Snapshot e.g. MAR122024.
+2. Set the `SDTM_DATASET` project environment variable to `SDTMBLIND`.
 1. Run `utilities/import_metadata.sas` as a job (on the SAS environment!) to move and transform the metadata Excel file stored in the `metadata-repository` EDV to sas7bdat files in your local METADATA project dataset.
 1. Run each of your prod ADaM and TFL programs in the Jobs view to produce your outputs.
 
