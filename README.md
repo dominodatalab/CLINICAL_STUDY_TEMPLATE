@@ -41,11 +41,14 @@ repo
 1. Run `utilities/dataset_init_re.py` as a job to create the appropriate analysis domino datasets (ADAM, TFL, ADAMQC, TFLQC and METADATA). As well as import SDTM datasets from an existing project following the same naming convention (`CDISC01_SDTM` for `CDISC01_RE_XXXXX`).
 1. Add the external data volume (EDV) `metadata-repository` to your project.
 
-     a. Ask your Domino contact on how to set up this example EDV within your Domino deployment. 
+    a. Ask your Domino contact on how to set up this example EDV within your Domino deployment. 
 1. Set the `DCUTDTC` project environment variable to the same value as the latest SDTM Snapshot e.g. MAR122024.
 2. Set the `SDTM_DATASET` project environment variable to `SDTMBLIND`.
 1. Run `utilities/import_metadata.sas` as a job (on the SAS environment!) to move and transform the metadata Excel file stored in the `metadata-repository` EDV to sas7bdat files in your local METADATA project dataset.
-1. Run each of your prod ADaM and TFL programs in the Jobs view to produce your outputs.
+1. Run each of your prod ADaM and TFL programs as seperate jobs to produce your outputs.
+2. To run all the ADaM and TFL programs using the `multijob.py` utility, first you need to add your SAS enviroment ID `pipeplines/jobs_example.cfg`.
+3. Once added, input the following into your job command to run the full, dependancy aware study pipeline `pipelines/multijob.py pipelines/jobs_example.cfg`
+    a. Ensure you select a Python enviroment to run this pipeline head jobs within. 
 
 # Naming convention
 
