@@ -48,7 +48,8 @@ repo
 1. Run each of your prod ADaM and TFL programs as seperate jobs to produce your outputs.
 2. To run all the ADaM and TFL programs using the `multijob.py` utility, first you need to add your SAS enviroment ID `pipeplines/jobs_example.cfg`.
 3. Once added, input the following into your job command to run the full, dependancy aware study pipeline `pipelines/multijob.py pipelines/jobs_example.cfg`
-    a. Ensure you select a Python enviroment to run this pipeline head jobs within. 
+
+   a. Ensure you select a Python enviroment to run this pipeline head jobs within. 
 
 # Naming convention
 
