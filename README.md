@@ -1,8 +1,10 @@
-# Template Reporting Effort repository
+# Template Clinical Study Reporting repository
 
-This repo and corresponding Domino Project contains the folder structure to template a reporting effort making ADaM and TFL code for the Domino clinical trial demo.
+This project template contains the folder structure and templated code (ADaM & TFL) to populate clinical study project.
 
-This repo project is copied by Clinical Programming team to instantiate a new study specfic reporting effort GitHub repo and Domino Project.
+This repo project is copied by the Clinical Programming team to instantiate a new study specfic reporting effort GitHub repo and Domino Project.
+
+Each reporting effort for a study will be a new branch from this single overall clinical study repository.
 
 
 # Directory structure
@@ -18,19 +20,24 @@ repo
 │   domino.sas
 ├───prod
 │   ├───adam
-│   └───tfl
+    ├───adam_flows
+    ├───tfl
+│   └───tfl_flows
 ├───qc
 │   ├───adam
 │   │       compare_adam.sas
-│   └───tfl
+    ├───adam_flows
+    ├───tfl
+│   └───tfl_flows
 ├───utilities
 │       init_datasets_re.py
 │       import_metadata.sas
-├───pipelines
-│       snakemake.sh
-│       Snakefile
-│       multijob.py
-│       jobs_example.cfg
+├───flows
+│       flow_1.py
+│       flow_2.py
+│       flow_3.py
+│       flow_4.py
+│       example_flow.py
 └───share
     └───macros
 ```
