@@ -1,0 +1,28 @@
+                                         Domino Page ^{thispage} of ^{lastpage}                                         
+                                                      Table 14.1.1                                                      
+                                                 Summary of Populations                                                 
+                                       Age Group by Treatment (Safety Population)                                       
+
+                                                                Placebo                           Xanomeline Low Dose               Xanomeline High Dose            
+Age Group                                           Statistic    (N=4)                             (N=4)                             (N=4)                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                                                    
+Less than 60 years old                              n (%)       2 (50.0)                          0                                 0                               
+60 years old <= age < 65 years old                  n (%)       1 (25.0)                          2 (50.0)                          0                               
+65 years old <= age < 70 years old                  n (%)       0                                 1 (25.0)                          1 (25.0)                        
+70 years old <= age < 75 years old                  n (%)       1 (25.0)                          0                                 1 (25.0)                        
+75 years old <= age < 80 years old                  n (%)       0                                 0                                 2 (50.0)                        
+80 years and older                                  n (%)       0                                 1 (25.0)                          0
+                                     t_pop: Summary of Populations (table dataset)                                      
+                                                      Table 14.1.1                                                      
+                                                 Summary of Populations                                                 
+                                       Age Group by Treatment (Safety Population)                                       
+
+  Obs  order1                          *Age Group  *Statistic  Placebo* (N=4)  Xanomeline Low Dose* (N=4)  Xanomeline High Dose* (N=4)
+    1       1
+    2       2  Less than 60 years old              n (%)       2 (50.0)        0                           0
+    3       3  60 years old <= age < 65 years old  n (%)       1 (25.0)        2 (50.0)                    0
+    4       4  65 years old <= age < 70 years old  n (%)       0               1 (25.0)                    1 (25.0)
+    5       5  70 years old <= age < 75 years old  n (%)       1 (25.0)        0                           1 (25.0)
+    6       6  75 years old <= age < 80 years old  n (%)       0               0                           2 (50.0)
+    7       7  80 years and older                  n (%)       0               1 (25.0)                    0

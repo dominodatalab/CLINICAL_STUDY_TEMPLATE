@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_tfl_t_pop",
+  "source_file": "prod/tfl/t_pop.sas",
+  "source_blob_sha": "0777c357556bb4e70d66138a289c95e65c61ff05",
+  "source_commit": "a46047bb6b6ee7766bdc883c8765487328d7f7cd",
+  "notes": "t_pop: Summary of Populations table. Full pipeline runs: PROC TEMPLATE style, PROC SQL distinct counts into macro vars, %macro age_data loop (age1-age6), PROC TRANSPOSE, %tfl_metadata (arrays + call symput to build display macro vars), PROC REPORT. Two mechanical edits vs upstream: %include domino.sas replaced by autoexec (libnames + __prog_name + metadata.t_pop display row + inlined repo tfl_metadata macro), and ODS PDF path changed from /mnt/artifacts/results to ./. All SQL/macro/TRANSPOSE/REPORT logic verbatim. PROC PRINT of tfl.t_pop appended to surface the table dataset. Also emits t_pop.pdf. Reproducible across 2 POSTs."
+}

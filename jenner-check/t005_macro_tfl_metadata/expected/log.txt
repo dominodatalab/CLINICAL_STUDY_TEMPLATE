@@ -1,0 +1,40 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library METADATA uses 1 concatenated paths.
+NOTE: DATA metadata.t_demo
+
+
+NOTE: Wrote metadata.t_demo (1 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA metadata
+
+
+NOTE: Read 1 rows from metadata.t_demo.
+NOTE: Wrote metadata (1 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA _null_
+
+
+NOTE: Read 1 rows from metadata.
+NOTE: Wrote _null_ (1 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DisplayName  = Table 14.3.1
+NOTE: DisplayTitle = Adverse Events by Relationship
+NOTE: Title1       = Treatment-Emergent Adverse Events
+NOTE: OrderNum     =           31
+NOTE: PageWidth    =          100
+NOTE: DATA macro_vars_check
+
+
+NOTE: Wrote macro_vars_check (5 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=macro_vars_check
+
+NOTE: PROC PRINT completed: 5 observations printed, 2 variables

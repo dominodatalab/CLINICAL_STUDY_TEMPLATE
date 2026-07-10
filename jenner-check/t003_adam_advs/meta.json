@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_adam_advs",
+  "source_file": "prod/adam/ADVS.sas",
+  "source_blob_sha": "52884f891bd876350c27ead9e660a064490d6a69",
+  "source_commit": "a46047bb6b6ee7766bdc883c8765487328d7f7cd",
+  "notes": "ADVS: merges ADSL with SDTM.VS by usubjid, keeping matched VS records (if v). Representative of the shared ADVS/ADLB/ADCM/ADMH pattern in prod/adam (same MERGE-with-domain shape). Bundle supplies mock adam.adsl and a CDISC-shaped sdtm.vs (SYSBP/DIABP/PULSE). MERGE verbatim; PROC PRINT added to surface the result."
+}

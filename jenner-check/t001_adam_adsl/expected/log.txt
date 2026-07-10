@@ -1,0 +1,23 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library SDTM uses 1 concatenated paths.
+NOTE: DATA sdtm.dm
+
+NOTE: Processing inline DATALINES (10 lines)
+
+NOTE: Read 10 rows from DATALINES.
+NOTE: Wrote sdtm.dm (10 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Library ADAM uses 1 concatenated paths.
+NOTE: DATA adam.adsl
+
+
+NOTE: Read 10 rows from sdtm.dm.
+NOTE: Wrote adam.adsl (10 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=adam.adsl
+
+NOTE: PROC PRINT completed: 10 observations printed, 8 variables

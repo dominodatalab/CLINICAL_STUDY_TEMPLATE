@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_macro_tfl_metadata",
+  "source_file": "share/macros/tfl_metadata.sas",
+  "source_blob_sha": "2f2662b1fdf39791ee5d46c1fe4e319919cb5397",
+  "source_commit": "a46047bb6b6ee7766bdc883c8765487328d7f7cd",
+  "notes": "Caller for the shared %tfl_metadata macro (share/macros/tfl_metadata.sas). Macro reads metadata.<__prog_name>, then uses _numeric_ / _character_ arrays with call symput(vname(...)) to create a same-named macro variable for every column of the metadata row. Bundle supplies __prog_name and a mock metadata.t_demo row (mixed char/numeric), invokes the verbatim macro, and confirms the created macro vars via %put and a PROC PRINT. Upstream the macro is autoloaded via SASAUTOS and called from the TFL programs."
+}

@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-10T16:02:28+00:00",
+  "_captured_run_id": "r_4a3a7a50b21e499d904e142b928c2101",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote sdtm.dm (10 rows, 8 columns).",
+    "NOTE: Read 10 rows from sdtm.dm.",
+    "NOTE: Wrote adam.adsl (10 rows, 8 columns).",
+    "NOTE: PROC PRINT completed: 10 observations printed, 8 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

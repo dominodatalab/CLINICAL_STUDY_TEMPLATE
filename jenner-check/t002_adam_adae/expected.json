@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-10T16:03:36+00:00",
+  "_captured_run_id": "r_fc2a40467f2d44679f1830d12dbe4c54",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote adae (7 rows, 7 columns).",
+    "NOTE: Read 7 rows from adae.",
+    "NOTE: Wrote adam.adae (7 rows, 8 columns).",
+    "NOTE: PROC PRINT completed: 7 observations printed, 8 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
