@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_adam_adsl",
+  "source_file": "prod/adam/ADSL.sas",
+  "source_blob_sha": "6d1cac4dec4cbd1b7c93bd060be82b0f1eee6914",
+  "source_commit": "a46047bb6b6ee7766bdc883c8765487328d7f7cd",
+  "notes": "ADSL: builds ADaM ADSL by copying SDTM.DM (data adam.adsl; set sdtm.dm). Upstream reads sdtm.dm from a Domino-mounted SDTM snapshot via %include domino.sas; bundle supplies a 10-row CDISC-Pilot-shaped SDTM.DM (Xanomeline arms) in autoexec and maps ADAM/SDTM libnames to WORK. DATA step verbatim; PROC PRINT added to surface the result."
+}

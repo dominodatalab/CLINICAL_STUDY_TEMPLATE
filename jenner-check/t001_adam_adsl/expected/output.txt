@@ -1,0 +1,13 @@
+                                               ADSL derived from SDTM.DM                                                
+
+  Obs  studyid       usubjid  subjid  sex  age                   arm                actarm  country
+    1  CDISC01  CDISC01-0001  0001    F     61  Placebo               Placebo               USA
+    2  CDISC01  CDISC01-0002  0002    M     74  Xanomeline High Dose  Xanomeline High Dose  USA
+    3  CDISC01  CDISC01-0003  0003    F     68  Xanomeline Low Dose   Xanomeline Low Dose   USA
+    4  CDISC01  CDISC01-0004  0004    M     58  Placebo               Placebo               USA
+    5  CDISC01  CDISC01-0005  0005    F     79  Xanomeline High Dose  Xanomeline High Dose  USA
+    6  CDISC01  CDISC01-0006  0006    M     63  Xanomeline Low Dose   Xanomeline Low Dose   USA
+    7  CDISC01  CDISC01-0007  0007    F     71  Placebo               Placebo               USA
+    8  CDISC01  CDISC01-0008  0008    M     66  Xanomeline High Dose  Xanomeline High Dose  USA
+    9  CDISC01  CDISC01-0009  0009    F     84  Xanomeline Low Dose   Xanomeline Low Dose   USA
+   10  CDISC01  CDISC01-0010  0010    M     55  Placebo               Placebo               USA

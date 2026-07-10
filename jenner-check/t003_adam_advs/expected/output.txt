@@ -1,0 +1,13 @@
+                                            ADVS derived from ADSL + SDTM.VS                                            
+
+  Obs       usubjid  sex  age                actarm  vstestcd                    vstest  vsstresn  visitnum
+    1  CDISC01-0001  F     61  Placebo               SYSBP     Systolic Blood Pressure        142         3
+    2  CDISC01-0001  F     61  Placebo               DIABP     Diastolic Blood Pressure        88         3
+    3  CDISC01-0001  F     61  Placebo               PULSE     Pulse Rate                      72         3
+    4  CDISC01-0002  M     74  Xanomeline High Dose  SYSBP     Systolic Blood Pressure        120         4
+    5  CDISC01-0002  M     74  Xanomeline High Dose  DIABP     Diastolic Blood Pressure        55         4
+    6  CDISC01-0002  M     74  Xanomeline High Dose  PULSE     Pulse Rate                     105         4
+    7  CDISC01-0003  F     68  Xanomeline Low Dose   SYSBP     Systolic Blood Pressure         88         3
+    8  CDISC01-0003  F     68  Xanomeline Low Dose   PULSE     Pulse Rate                      58         3
+    9  CDISC01-0004  M     58  Placebo               SYSBP     Systolic Blood Pressure        135        12
+   10  CDISC01-0004  M     58  Placebo               DIABP     Diastolic Blood Pressure        80        12

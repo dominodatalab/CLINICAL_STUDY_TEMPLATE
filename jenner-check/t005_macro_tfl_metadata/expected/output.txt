@@ -1,0 +1,8 @@
+                             Macro variables created by tfl_metadata from the metadata row                              
+
+        name                              value
+DisplayName   Table 14.3.1
+DisplayTitle  Adverse Events by Relationship
+Title1        Treatment-Emergent Adverse Events
+OrderNum                31
+PageWidth              100

@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-10T16:08:43+00:00",
+  "_captured_run_id": "r_3d09ea4c9d1d4306b7c01c6f4530576f",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: DisplayName  = Table 14.3.1",
+    "NOTE: Title1       = Treatment-Emergent Adverse Events",
+    "NOTE: OrderNum     =           31",
+    "NOTE: PROC PRINT completed: 5 observations printed, 2 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

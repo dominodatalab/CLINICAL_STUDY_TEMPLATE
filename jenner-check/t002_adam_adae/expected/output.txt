@@ -1,0 +1,10 @@
+                                          ADAE derived from SDTM.AE / SDTM.EX                                           
+
+  Obs       usubjid  sex  age                actarm     aeterm  aestdy  visitnum       extrt
+    1  CDISC01-0001  F     61  Placebo               HEADACHE        3         3  PLACEBO
+    2  CDISC01-0001  F     61  Placebo               NAUSEA         45         4  PLACEBO
+    3  CDISC01-0002  M     74  Xanomeline High Dose  DIZZINESS      10         3  XANOMELINE
+    4  CDISC01-0002  M     74  Xanomeline High Dose  RASH          170        12  XANOMELINE
+    5  CDISC01-0003  F     68  Xanomeline Low Dose   FATIGUE       120         4  XANOMELINE
+    6  CDISC01-0004  M     58  Placebo               INSOMNIA      200        12  PLACEBO
+    7  CDISC01-0005  F     79  Xanomeline High Dose  HEADACHE        2         3  XANOMELINE

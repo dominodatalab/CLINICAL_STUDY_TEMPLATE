@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_adam_adae",
+  "source_file": "prod/adam/ADAE.sas",
+  "source_blob_sha": "7f12fd34e8b4ab4679bc5ac3ef0f35b6df3f2202",
+  "source_commit": "a46047bb6b6ee7766bdc883c8765487328d7f7cd",
+  "notes": "ADAE: merges ADSL with SDTM.AE by usubjid, derives VISITNUM from AESTDY (three bands), PROC SORT by usubjid visitnum, then merges with SDTM.EX by usubjid visitnum. Bundle supplies mock adam.adsl / sdtm.ae / sdtm.ex (AESTDY chosen to exercise all three VISITNUM branches). MERGE/derivation/PROC SORT logic verbatim; PROC PRINT added to surface the result."
+}

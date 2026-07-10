@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-10T16:07:10+00:00",
+  "_captured_run_id": "r_2838c3304e624fec9896b956b4534ec2",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC REPORT output 7 observations with 6 variables.",
+    "NOTE: Wrote tfl.t_pop (7 rows, 6 columns).",
+    "NOTE: PROC PRINT completed: 7 observations printed, 6 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
